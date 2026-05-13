@@ -1,5 +1,3 @@
-
-
 import { useCallback, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, Zap, Layers, RefreshCw, Play, ArrowLeft, ArrowRight, ArrowDown, RotateCcw, MessageSquare } from 'lucide-react';

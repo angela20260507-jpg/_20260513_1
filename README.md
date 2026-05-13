@@ -2,19 +2,22 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Neon Tetra
 
-This contains everything you need to run your app locally.
+A high-performance, neon-styled Tetris game with AI-powered commentary.
 
-View your app in AI Studio: https://ai.studio/apps/cfbdde1f-2ac5-4440-9062-f425ed5e56f2
+## Features
+- Classic Tetris gameplay with smooth animations.
+- AI Commentary powered by Google Gemini.
+- Retro-future neon aesthetics.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set your Gemini API key in `.env` (copy from `.env.example`):
+   `VITE_GEMINI_API_KEY="your_api_key"`
 3. Run the app:
    `npm run dev`
